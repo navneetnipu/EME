@@ -18,7 +18,7 @@ double wave_function_y(double x,double t,double phase){
         printf("x=  %6.2d  ",i); // x cordinate values
         for(int k=0;k<=t;k++){ //y at particular x and time varies(x cordinate is fixed for a particle)
             y=(i*k)+phase;//y is the position of the particle at(x,t)
-            printf(" %6.2lf ",y);//gives the position of particle wave at different time and x cordinate
+            printf(" %6.2lf ",y);
         }
         printf("\n");
     }
