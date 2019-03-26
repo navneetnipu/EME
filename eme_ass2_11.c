@@ -1,7 +1,7 @@
 // c program to solve general wave equation in xy plane
 #include<stdio.h>
 double wave_function_y(double x,double t,double phase);//wave function will generate the value of the particular wave at a particular position,time,phase angle
-double main(){
+int main(){
     double x,t,phase;
     printf("enter the value of x-cordinate,time,phase angle to calculate the value of wave position:\n");
     scanf("%lf%lf%lf",&x,&t,&phase);//user input for wave function arguments
@@ -22,4 +22,5 @@ double wave_function_y(double x,double t,double phase){
         }
         printf("\n");
     }
+   return 0;
 }
