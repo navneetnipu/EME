@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<math.h>
 double wave_function_y(double x,double t,double phase,double A,double T,double wave_length);//wave function will generate the value of the particular wave at a particular position,time,phase angle
-double main(){
+int main(){
     double x,t,phase,A,T,wave_length;
     printf("enter the value of x-cordinate in meter,time in second,phase angle in radian,amplitude in meter,time period in seconds,wave lengthin meter to calculate the value of wave position:\n");
     scanf("%lf%lf%lf%lf%lf%lf",&x,&t,&phase,&A,&T,&wave_length);//user input for wave function arguments
@@ -26,4 +26,5 @@ double wave_function_y(double x,double t,double phase,double A,double T,double w
         }
         printf("\n");
     }
+   return 0;
 }
